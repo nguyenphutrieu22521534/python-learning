@@ -1,5 +1,3 @@
-# This file illustrates how to declare and use variables in Python, including variable naming conventions and scope.
-
 # Variable declaration and assignment
 name = "Alice"  # String variable
 age = 30        # Integer variable

@@ -1,7 +1,3 @@
-# data_types.py
-
-# This file showcases various data types in Python.
-
 # Integer
 integer_example = 10
 print("Integer:", integer_example)
@@ -35,3 +31,7 @@ print("Set:", set_example)
 # Dictionary (as a reference for data types)
 dict_example = {"key1": "value1", "key2": "value2"}
 print("Dictionary:", dict_example)
+
+#Getting the Data Type
+x = 5
+print(type(x))

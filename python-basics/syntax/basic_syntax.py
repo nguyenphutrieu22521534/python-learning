@@ -1,7 +1,3 @@
-# basic_syntax.py
-
-# This is a simple Python script to demonstrate basic syntax.
-
 # Print statement
 print("Hello, World!")
 

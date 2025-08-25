@@ -1,5 +1,3 @@
-# Tuples in Python
-
 # Creating a tuple
 my_tuple = (1, 2, 3, 4, 5)
 print("Tuple:", my_tuple)
@@ -7,6 +5,10 @@ print("Tuple:", my_tuple)
 # Accessing elements in a tuple
 first_element = my_tuple[0]
 print("First element:", first_element)
+
+# Negative indexing
+last_element = my_tuple[-1]
+print("Last element:", last_element)
 
 # Slicing a tuple
 sliced_tuple = my_tuple[1:4]
@@ -25,3 +27,16 @@ print("Mixed tuple:", mixed_tuple)
 # Nested tuples
 nested_tuple = (my_tuple, mixed_tuple)
 print("Nested tuple:", nested_tuple)
+
+# Update Tuple
+
+# Unpacking a tuple
+a, b, c, d, e = my_tuple
+print("Unpacked values:", a, b, c, d, e)
+
+# Using asterisk (*) to unpack
+first, *middle, last = my_tuple
+print("First:", first)
+print("Middle:", middle)
+print("Last:", last)
+

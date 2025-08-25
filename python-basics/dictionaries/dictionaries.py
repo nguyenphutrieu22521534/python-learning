@@ -1,5 +1,3 @@
-# dictionaries.py
-
 # Creating a dictionary
 my_dict = {
     "name": "Alice",
